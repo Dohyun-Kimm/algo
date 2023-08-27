@@ -43,3 +43,16 @@ def solution(prices):
 #             answer[i] += 1
 #             if prices[i] > prices[j]: break
 #     return answer
+
+def solution(prices):
+    count = [0 for _ in range(len(prices))]
+    for p in range(len(prices)):
+        for q in range(p + 1, len(prices)):
+            count[p] += 1
+            if prices[q] < prices[p]:
+                break
+
+    # print(count)
+    return count
+# 2번째 시도
+# 유지되는 가격은 마지막날을 제외하고 기본 값이 1일이다.
