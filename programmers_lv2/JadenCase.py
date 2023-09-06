@@ -7,3 +7,4 @@ def solution(s):
     return ' '.join(words)
 
 # 5번째줄 6번째줄 차이를 모르겠음....... 알면 추가하기
+
