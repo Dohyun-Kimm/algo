@@ -28,5 +28,21 @@ def solution(numbers):
     return answer
 
 # 피드백
-# 문제 자체를 깊이 파보려고 하지 않았던것 같다.
-#
+# 문제 자체를 깊이 파보려고 하지 않았던것 같다.a
+
+# 다시 풀었을때
+def solution(numbers):
+    answer = []
+    # 홀수 일땐 그 수보다 큰 가장 가까운 소수
+    # 짝수 일땐 그 수 +1
+    for n in numbers:
+        if n % 2 == 0:
+            answer.append(n + 1)
+            continue
+        tmp = '0' + bin(n)[2:]
+        tmp = tmp[:tmp.rindex('0')] + '10' + tmp[tmp.rindex('0') + 2:] # rindex 사용법을 처음 알았음.
+        # number_bin[:number_bin.rindex('0')] + '10' + number_bin[number_bin.rindex('0') + 2:]
+        ans = int('0b' + tmp, 2)
+        answer.append(ans)
+
+    return answer

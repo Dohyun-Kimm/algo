@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="81aac77f-7530-457e-a03d-5b46af2c393a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/15686_치킨거리.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2615_오목게임.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/오목_hohocode.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/연속된부분수열의합_programmers.py" beforeDir="false" afterPath="$PROJECT_DIR$/연속된부분수열의합_programmers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/programmers_lv2/2개이하로다른비트.py" beforeDir="false" afterPath="$PROJECT_DIR$/programmers_lv2/2개이하로다른비트.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,13 +31,10 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/SSAFY/Desktop/ALGO&quot;
-  }
-}</component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+  </component>
   <component name="RunManager" selected="Python.2615_오목게임">
     <configuration name="15686_치킨거리" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="ALGO" />
