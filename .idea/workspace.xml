@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="81aac77f-7530-457e-a03d-5b46af2c393a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/programmers_lv2/전력망둘로나누기.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/programmers_lv3/베스트앨범.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/programmers_lv2/가장큰수.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
